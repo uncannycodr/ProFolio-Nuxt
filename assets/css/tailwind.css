@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: inter;
+}
+
+:root {
+  --australian-mint: #f6ffbd;
+  --yellowish-tan: #efff8a;
+  --pale-muave: #ffd2f5;
+  --day-sky-blue: #8ac7ff;
+  --lavender-mist: #d6ebff;
+  --dark-jungle-green: #1c2a1d;
+  --bianca: #fcfcf1;
+  --storm-dust: #616161;
+  --liver: #4f4f4f;
+  --black: #000000;
+}
+
+.font-xs {
+  font-size: clamp(0.875rem, 4vw, 1.5rem); /* 12px - 24px */
+}
+.font-sm {
+  font-size: clamp(1rem, 2vw, 1.75rem); /* 16px - 28px */
+}
+.font-base {
+  font-size: clamp(1.125rem, 2vw, 1.75rem); /* 18px - 28px */
+}
+.font-lg {
+  font-size: clamp(1.125rem, 4vw, 3.625rem); /* 18px - 58px */
+}
+.font-xl {
+  font-size: clamp(2rem, 6vw, 4.5rem); /* 18px - 58px */
+}
+
+
